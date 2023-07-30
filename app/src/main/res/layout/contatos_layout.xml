@@ -24,7 +24,7 @@
 
             android:text="John Doe"
             android:textColor="@color/white"
-            android:textSize="18sp"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.293"
             app:layout_constraintStart_toStartOf="parent"
