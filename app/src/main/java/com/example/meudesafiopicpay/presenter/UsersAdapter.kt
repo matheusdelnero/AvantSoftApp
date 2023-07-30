@@ -37,8 +37,10 @@ class MainViewHolder(val binding: ContatosLayoutBinding) : RecyclerView.ViewHold
 
     fun bind(user: Users) {
 
-        binding.tvNome.text = user.name
-        binding.tvUser.text = user.email
+        binding.tvName.text = user.name
+        binding.tvEmailText.text = user.email
+        binding.tvAgeText.text = user.age
+        binding.tvIdText.text = user.id
 
 
     }
