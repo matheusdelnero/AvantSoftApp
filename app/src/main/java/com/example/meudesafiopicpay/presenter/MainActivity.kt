@@ -19,6 +19,10 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.recycler.adapter = adapter
+        binding.recycler2.adapter = adapter
+        binding.recycler3.adapter = adapter
+        binding.recycler4.adapter = adapter
+        binding.recycler5.adapter = adapter
     }
 
     override fun onStart(){

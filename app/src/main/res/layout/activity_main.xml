@@ -9,11 +9,64 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/contatos_layout" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler2"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recycler"
+        tools:listitem="@layout/contatos_layout" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler3"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="280dp"
         tools:listitem="@layout/contatos_layout"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+        app:layout_constraintTop_toBottomOf="@id/recycler2"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler4"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="280dp"
+        tools:listitem="@layout/contatos_layout"
+        app:layout_constraintTop_toBottomOf="@id/recycler3"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler5"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="280dp"
+        tools:listitem="@layout/contatos_layout"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/recycler4"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
