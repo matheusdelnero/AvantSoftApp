@@ -10,7 +10,5 @@ Tecnologias utilizadas:
  [Retrofit]
  [Clean Architecture]
  [Coroutines]
- [JUnit4]
- [Mockk]
  [Koin]
 
